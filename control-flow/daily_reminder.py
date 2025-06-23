@@ -4,7 +4,7 @@ priority = input("Priority (high/medium/low): ").lower()
 
 time_bound = input("Is it time-bound? (yes/no): ").lower()
 
-print("\n--- Your Reminder ---")
+print("\nReminder:")
 
 match priority:
     case "high":
